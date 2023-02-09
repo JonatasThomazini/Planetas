@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/*** imagem de fundo ***/
+body{
+    height: 100%;
+    width: 100%;
+    background: url('imagem/fundo/fundo.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: blue;
+
+}
+
+
+/*** cabecario ***/
+
+
+
+#h1Principal {
+    margin-top: 3%;
+    color: white; 
+    font-size: 35px;
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+}
+
+/*** tamanho da imagem da terra ***/
+#terra{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    
+}
+/*** texto do seu peso na terra  ***/
+
+#h3Terra{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 4%;
+}
+
+/*** input peso botao de enviar é limapar   ***/
+
+.inputs {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+
+}
+#peso {
+    width: 170px;
+    height: 25px;
+}
+
+#limpar{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#Enviar{
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+   
+}
+
+
+#respMercurio {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+}
+#respVenus{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+}
+
+
+/*** resposta e curiosidades de Marte   ***/
+#respMarte{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+}
+
+
+
+#respJupiter{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+}
+
+/*** resposta e curiosidades de Saturno   ***/
+
+#respSaturno{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+}
+
+
+
+/*** resposta e curiosidades de Urano  ***/
+
+#respUrano{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+  
+}
+
+
+
+
+/*** resposta e curiosidades de Netuno   ***/
+
+#respNetuno{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 2% 0% 5% 3%;
+}
