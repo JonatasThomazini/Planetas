@@ -7,10 +7,8 @@
 }
 /*** imagem de fundo ***/
 body{
-    height: 100%;
-    width: 100%;
     background: url('imagem/fundo/fundo.png');
-    background-size: cover;
+    background-size: 100% ;
     background-attachment: fixed;
 
 }
@@ -78,12 +76,14 @@ body{
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
     margin: 2% 0% 5% 3%;
+    line-height: 1.5;
 }
 #respVenus{
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
     margin: 2% 0% 5% 3%;
+    line-height: 1.5;
 }
 
 
@@ -93,6 +93,7 @@ body{
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
     margin: 2% 0% 7% 3%;
+    line-height: 1.5;
 }
 
 
@@ -102,6 +103,7 @@ body{
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
     margin: 2% 0% 7% 3%;
+    line-height: 1.5;
 }
 
 /*** resposta e curiosidades de Saturno   ***/
@@ -111,6 +113,7 @@ body{
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
     margin: 2% 0% 7% 3%;
+    line-height: 1.5;
 }
 
 
@@ -121,7 +124,8 @@ body{
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
-    margin: 2% 0% 7% 3%;
+    margin: 2% 0% 7% 5%;
+    line-height: 1.5;
   
 }
 
@@ -131,8 +135,43 @@ body{
 /*** resposta e curiosidades de Netuno   ***/
 
 #respNetuno{
-    color: rgb(255, 255, 255);
+    color: rgb(218, 218, 218);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
-    margin: 2% 0% 7% 3%;
+    margin: 5% 0% 7% 3%;
+    line-height: 1.5;
+    text-justify: auto;
+
+}
+#mercurio{
+    float: left;
+    margin-right: 6%;
+    margin-left: 2%;
+    
+}
+#venus{
+    float: left;
+    margin-right: 6%;
+    margin-left: -3%;
+}
+#marte{
+    float: left;
+    margin-right: 12%;
+}
+#jupiter{
+    float: left;
+    margin-right: 12%;
+    margin-left: 2%;
+}
+#saturno{
+    float: left;
+    margin-right: 6%;
+}
+#urano{
+    float: left;
+   margin-right: 12%;
+}
+#netuno {
+    float: left;
+    margin-right: 12%;
 }
