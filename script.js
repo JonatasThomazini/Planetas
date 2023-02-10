@@ -28,43 +28,43 @@ function clicar(){
         // colocando as respostas é imagens dos planetas 
         resposta.innerHTML = ` MERCURIO <br>
             Seu peso seria ${somaMercurio.toFixed(2)} (KG) <br>
-            Curiosidades: Mercúrio é planeta  que está mais perto do Sol<br>
-            Duração do dia: 58d 15h 30m <br>
+            Curiosidades: Mercúrio é o planeta  que está mais perto do Sol. <br>
+            Duração do dia: 58d 15h 30m. <br>
             Temperatura média: 169,35 °C.<br>
-            Composição atmosférica: hélio, sódio e oxigênio`
+            Composição atmosférica: hélio, sódio e oxigênio.`
         const img = document.getElementById("imagem").innerHTML = "<img src = 'imagem/planetas/mercurio.png' width = '300' >";
 
     respVenus.innerHTML = `VÊNUS <br>
             Seu peso seria ${somaVenus.toFixed(2)} (KG) <br>
-            Curiosidades: Vênus é o planeta mais próximo da Terra <br>
-            Duração do dia: 243d 0h 0m <br>
-            Temperatura média:462 °C <br>
-            Composição atmosférica: dióxido de carbono (CO2)
+            Curiosidades: Vênus é o planeta mais próximo da Terra. <br>
+            Duração do dia: 243d 0h 0m. <br>
+            Temperatura média:462 °C. <br>
+            Composição atmosférica: dióxido de carbono. (CO2)
     `;
     const imgVenus = document.getElementById("imagemVenus").innerHTML = "<img src = 'imagem/planetas/venus.png' width = '380'>";
 
     respMarte.innerHTML = `MARTE <br>
             Seu peso seria ${somaMarte.toFixed(2)} (KG) <br>
-            Curiosidades: Marte O planeta vermelho é o único, além da Terra, que possui clima <br>
-            Duração do dia: 1d 0h 37m <br>
-            Temperatura média:inverno -60 °C, verão 22 °C <br>
-            Composição atmosférica: Dióxido de Carbono, Nitrogénio
+            Curiosidades: Marte O planeta vermelho é o único além da Terra que possui clima. <br>
+            Duração do dia: 1d 0h 37m. <br>
+            Temperatura média:inverno -60 °C, verão 22 °C. <br>
+            Composição atmosférica: Dióxido de Carbono e Nitrogénio.
             `;
     const imgMarte = document.getElementById("imagemMarte").innerHTML = "<img src = 'imagem/planetas/marte.png' width = '300'>";
 
     respJupiter.innerHTML = `JÚPITER <br>
             Seu peso seria ${somaJupiter.toFixed(2)} (KG) <br>
-            Curiosidades: Júpiter é o maior planeta do Sistema Solar, Júpiter tem 80 luas <br>
-            Duração do dia: 0d 9h 56m <br>
+            Curiosidades: Júpiter é o maior planeta do Sistema Solar, ele tem 80 luas. <br>
+            Duração do dia: 0d 9h 56m. <br>
             Temperatura média:-110 °C. <br>
-            Composição atmosférica: 86% de hidrogênio e 14% de hélio
+            Composição atmosférica: 86% de hidrogênio e 14% de hélio.
             `;
     const imgJupiter = document.getElementById("imagemJupiter").innerHTML = "<img src = 'imagem/planetas/jupiter.png' width = '300'>";
 
     respSaturno.innerHTML = `SATURNO <br>
             Seu peso seria ${somaSaturno.toFixed(2)} (KG) <br>
             Curiosidades: Saturno é tão pouco denso que poderia flutuar sobre a água. <br>
-            Duração do dia: 0d, 10h 30m <br>
+            Duração do dia: 0d, 10h 30m. <br>
             Temperatura média:-138 ºC. <br>
             Composição atmosférica: predominância de hidrogênio (H2) e hélio (He).
             `;
@@ -72,20 +72,19 @@ function clicar(){
 
     respUrano.innerHTML = `URANO<br>
             Seu peso seria ${somaUrano.toFixed(2)} (KG) <br>
-            Curiosidades: A cor azulada característica do planeta é resultado da absorção de luz realizada pelo gás metano <br>
-            Duração do dia: 0d 17h 14m <br>
+            Curiosidades: A cor azulada característica do planeta é resultado da absorção de luz realizada pelo gás metano. <br>
+            Duração do dia: 0d 17h 14m. <br>
             Temperatura média:-224 ºC. <br>
-            Composição 83% de hidrogénio, 15% de hélio, 2% de metano e pequenas porções de acetileno
+            Composição 83% de hidrogénio, 15% de hélio, 2% de metano e pequenas porções de acetileno.
             `;
     const imgUrano = document.getElementById("imagemUrano").innerHTML = "<img src = 'imagem/planetas/urano.png' width = '300'>";
 
     respNetuno.innerHTML = `NETUNO<br>
             Seu peso seria ${somaNetuno.toFixed(2)} (KG) <br>
-            Curiosidades: Netuno é 27 vezes mais intenso que o da Terra <br>
-            Duração do dia: 0d 16h 6m <br>
-            Temperatura média:-200 ºC. <br>
-            Composição É composto essencialmente por gases como hélio, metano, hidrogênio e amônia. Não apresenta superfície sólida, apenas um núcleo muito denso envolto em fluidos e gases.
-            `;
+            Curiosidades: Netuno é classificado pelos cientistas como o planeta mais frio do Sistema Solar.<br>
+            Duração do dia: 0d 16h 6m. <br>
+            Temperatura média:-250 ºC. <br>
+            Composição É composto essencialmente por gases como hélio, metano e hidrogênio, Não apresenta superfície sólida.
     const imgNetuno = document.getElementById("imagemNetuno").innerHTML = "<img src = 'imagem/planetas/netuno.png' width = '300'>";
 
     }
