@@ -50,7 +50,7 @@ function clicar(){
             Temperatura média:inverno -60 °C, verão 22 °C <br>
             Composição atmosférica: Dióxido de Carbono, Nitrogénio
             `;
-    const imgMarte = document.getElementById("imagemMarte").innerHTML = "<img src = 'imagem/planetas/marte.png' width = '250'>";
+    const imgMarte = document.getElementById("imagemMarte").innerHTML = "<img src = 'imagem/planetas/marte.png' width = '300'>";
 
     respJupiter.innerHTML = `JÚPITER <br>
             Seu peso seria ${somaJupiter.toFixed(2)} (KG) <br>
@@ -90,6 +90,8 @@ function clicar(){
 
     }
 
+
+    
     // Apagando o texto do peso
 
     peso.value = innerHTML = "";
@@ -114,3 +116,4 @@ function limpar(){
     const imgUrano = document.getElementById("imagemUrano").innerHTML = "<img src = '' >";
     const imgNetuno = document.getElementById("imagemNetuno").innerHTML = "<img src = '' >";
 }
+
