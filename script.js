@@ -54,7 +54,7 @@ function clicar(){
 
     respJupiter.innerHTML = `JÚPITER <br>
             Seu peso seria ${somaJupiter.toFixed(2)} (KG) <br>
-            Curiosidades: Júpiter é o maior planeta do Sistema Solar, ele tem 80 luas. <br>
+            Curiosidades: Júpiter é o maior planeta do Sistema Solar, ele possui 80 luas. <br>
             Duração do dia: 0d 9h 56m. <br>
             Temperatura média:-110 °C. <br>
             Composição atmosférica: 86% de hidrogênio e 14% de hélio.
