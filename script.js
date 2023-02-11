@@ -47,7 +47,7 @@ function clicar(){
             Seu peso seria ${somaMarte.toFixed(2)} (KG) <br>
             Curiosidades: Marte O planeta vermelho é o único além da Terra que possui clima. <br>
             Duração do dia: 1d 0h 37m. <br>
-            Temperatura média:inverno -60 °C, verão 22 °C. <br>
+            Temperatura média: inverno -60 °C, verão 22 °C. <br>
             Composição atmosférica: Dióxido de Carbono e Nitrogénio.
             `;
     const imgMarte = document.getElementById("imagemMarte").innerHTML = "<img src = 'imagem/planetas/marte.png' width = '300'>";
@@ -56,7 +56,7 @@ function clicar(){
             Seu peso seria ${somaJupiter.toFixed(2)} (KG) <br>
             Curiosidades: Júpiter é o maior planeta do Sistema Solar, ele possui 80 luas. <br>
             Duração do dia: 0d 9h 56m. <br>
-            Temperatura média:-110 °C. <br>
+            Temperatura média: -110 °C. <br>
             Composição atmosférica: 86% de hidrogênio e 14% de hélio.
             `;
     const imgJupiter = document.getElementById("imagemJupiter").innerHTML = "<img src = 'imagem/planetas/jupiter.png' width = '300'>";
@@ -75,7 +75,7 @@ function clicar(){
             Curiosidades: A cor azulada característica do planeta é resultado da absorção de luz realizada pelo gás metano. <br>
             Duração do dia: 0d 17h 14m. <br>
             Temperatura média:-224 ºC. <br>
-            Composição 83% de hidrogénio, 15% de hélio, 2% de metano e pequenas porções de acetileno.
+            Composição atmosférica: 83% de hidrogénio, 15% de hélio, 2% de metano e pequenas porções de acetileno.
             `;
     const imgUrano = document.getElementById("imagemUrano").innerHTML = "<img src = 'imagem/planetas/urano.png' width = '300'>";
 
@@ -84,7 +84,7 @@ function clicar(){
             Curiosidades: Netuno é classificado pelos cientistas como o planeta mais frio do Sistema Solar.<br>
             Duração do dia: 0d 16h 6m. <br>
             Temperatura média:-250 ºC. <br>
-            Composição É composto essencialmente por gases como hélio, metano e hidrogênio, Não apresenta superfície sólida.
+            Composiçãoatmosférica: gases como hélio, metano e hidrogênio, Não apresenta superfície sólida.
             `;
     const imgNetuno = document.getElementById("imagemNetuno").innerHTML = "<img src = 'imagem/planetas/netuno.png' width = '300'>";
 
