@@ -85,6 +85,7 @@ function clicar(){
             Duração do dia: 0d 16h 6m. <br>
             Temperatura média:-250 ºC. <br>
             Composição É composto essencialmente por gases como hélio, metano e hidrogênio, Não apresenta superfície sólida.
+            `;
     const imgNetuno = document.getElementById("imagemNetuno").innerHTML = "<img src = 'imagem/planetas/netuno.png' width = '300'>";
 
     }
