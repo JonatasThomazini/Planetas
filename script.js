@@ -77,7 +77,7 @@ function clicar(){
             Temperatura média:-224 ºC. <br>
             Composição atmosférica: 83% de hidrogénio, 15% de hélio, 2% de metano e pequenas porções de acetileno.
             `;
-    const imgUrano = document.getElementById("imagemUrano").innerHTML = "<img src = 'imagem/planetas/urano.png' width = '300'>";
+    const imgUrano = document.getElementById("imagemUrano").innerHTML = "<img src = 'imagem/planetas/urano.gif' width = '300'>";
 
     respNetuno.innerHTML = `NETUNO<br>
             Seu peso seria ${somaNetuno.toFixed(2)} (KG) <br>
@@ -86,7 +86,7 @@ function clicar(){
             Temperatura média:-250 ºC. <br>
             Composiçãoatmosférica: gases como hélio, metano e hidrogênio, Não apresenta superfície sólida.
             `;
-    const imgNetuno = document.getElementById("imagemNetuno").innerHTML = "<img src = 'imagem/planetas/netuno.png' width = '300'>";
+    const imgNetuno = document.getElementById("imagemNetuno").innerHTML = "<img src = 'imagem/planetas/netuno.gif' width = '300'>";
 
     }
 
