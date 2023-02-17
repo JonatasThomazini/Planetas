@@ -59,7 +59,7 @@ function clicar(){
             Temperatura média: -110 °C. <br>
             Composição atmosférica: 86% de hidrogênio e 14% de hélio.
             `;
-    const imgJupiter = document.getElementById("imagemJupiter").innerHTML = "<img src = 'imagem/planetas/jupiter.png' width = '300'>";
+    const imgJupiter = document.getElementById("imagemJupiter").innerHTML = "<img src = 'imagem/planetas/jupiter.gif' width = '300'>";
 
     respSaturno.innerHTML = `SATURNO <br>
             Seu peso seria ${somaSaturno.toFixed(2)} (KG) <br>
@@ -68,7 +68,7 @@ function clicar(){
             Temperatura média:-138 ºC. <br>
             Composição atmosférica: predominância de hidrogênio (H2) e hélio (He).
             `;
-    const imgSaturno = document.getElementById("imagemSaturno").innerHTML = "<img src = 'imagem/planetas/saturno.gif' width = '300'> ";
+    const imgSaturno = document.getElementById("imagemSaturno").innerHTML = "<img src = 'imagem/planetas/saturno.gif' width = '360'> ";
 
     respUrano.innerHTML = `URANO<br>
             Seu peso seria ${somaUrano.toFixed(2)} (KG) <br>
