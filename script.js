@@ -41,7 +41,7 @@ function clicar(){
             Temperatura média:462 °C. <br>
             Composição atmosférica: dióxido de carbono. (CO2)
     `;
-    const imgVenus = document.getElementById("imagemVenus").innerHTML = "<img src = 'imagem/planetas/venus.gif' width = '320'>";
+    const imgVenus = document.getElementById("imagemVenus").innerHTML = "<img src = 'imagem/planetas/venus.gif' width = '340'>";
 
     respMarte.innerHTML = `MARTE <br>
             Seu peso seria ${somaMarte.toFixed(2)} (KG) <br>
@@ -50,7 +50,7 @@ function clicar(){
             Temperatura média: inverno -60 °C, verão 22 °C. <br>
             Composição atmosférica: Dióxido de Carbono e Nitrogénio.
             `;
-    const imgMarte = document.getElementById("imagemMarte").innerHTML = "<img src = 'imagem/planetas/marte.png' width = '300'>";
+    const imgMarte = document.getElementById("imagemMarte").innerHTML = "<img src = 'imagem/planetas/marte.gif' width = '300'>";
 
     respJupiter.innerHTML = `JÚPITER <br>
             Seu peso seria ${somaJupiter.toFixed(2)} (KG) <br>
