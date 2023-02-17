@@ -32,7 +32,7 @@ function clicar(){
             Duração do dia: 58d 15h 30m. <br>
             Temperatura média: 169,35 °C.<br>
             Composição atmosférica: hélio, sódio e oxigênio.`
-        const img = document.getElementById("imagem").innerHTML = "<img src = 'imagem/planetas/mercurio.png' width = '300' >";
+        const img = document.getElementById("imagem").innerHTML = "<img src = 'imagem/planetas/mercurio.gif' width = '250' >";
 
     respVenus.innerHTML = `VÊNUS <br>
             Seu peso seria ${somaVenus.toFixed(2)} (KG) <br>
@@ -41,7 +41,7 @@ function clicar(){
             Temperatura média:462 °C. <br>
             Composição atmosférica: dióxido de carbono. (CO2)
     `;
-    const imgVenus = document.getElementById("imagemVenus").innerHTML = "<img src = 'imagem/planetas/venus.png' width = '380'>";
+    const imgVenus = document.getElementById("imagemVenus").innerHTML = "<img src = 'imagem/planetas/venus.gif' width = '320'>";
 
     respMarte.innerHTML = `MARTE <br>
             Seu peso seria ${somaMarte.toFixed(2)} (KG) <br>
