@@ -68,7 +68,7 @@ function clicar(){
             Temperatura média:-138 ºC. <br>
             Composição atmosférica: predominância de hidrogênio (H2) e hélio (He).
             `;
-    const imgSaturno = document.getElementById("imagemSaturno").innerHTML = "<img src = 'imagem/planetas/saturno.png' width = '380'> ";
+    const imgSaturno = document.getElementById("imagemSaturno").innerHTML = "<img src = 'imagem/planetas/saturno.gif' width = '300'> ";
 
     respUrano.innerHTML = `URANO<br>
             Seu peso seria ${somaUrano.toFixed(2)} (KG) <br>
