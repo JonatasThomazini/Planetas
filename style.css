@@ -44,7 +44,7 @@ body{
     margin-top: 4%;
 }
 
-/*** input peso botao de enviar é limapar   ***/
+/*** input peso botao de enviar é limpar   ***/
 
 .inputs {
     text-align: center;
@@ -71,43 +71,82 @@ body{
 }
 
 
+/*** Imagem Mercurio  ***/
+#mercurio{
+    float: left;
+    margin-right: 13%;
+    margin-left: 3%;
+    
+}
+
+/*** resposta e curiosidades de Mercurio   ***/
 #respMercurio {
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
-    margin: 2% 0% 5% 3%;
+    margin: 2% 0% 7% 5%;
     line-height: 1.5;
+    display: block;
+    
 }
+
+/*** Imagem Venus  ***/
+#venus{
+    float: left;
+    margin-right: 9%;
+    margin-left: 0%;
+}
+
+/*** resposta e curiosidades de Venus   ***/
 #respVenus{
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
-    margin: 2% 0% 5% 3%;
+    margin: 3% 0% 5% 3%;
     line-height: 1.5;
 }
 
+/*** Imagem Marte  ***/
+#marte{
+    float: left;
+    margin-right: 11%;
+    margin-left: 1%;
+    display: block;
+    margin-top: 2%;
+}
 
 /*** resposta e curiosidades de Marte   ***/
 #respMarte{
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
-    margin: 2% 0% 7% 3%;
+    margin: 8% 0% 7% 3%;
     line-height: 1.5;
 }
 
+/*** Imagem Jupiter  ***/
+#jupiter{
+    float: left;
+    margin-right: 10%;
+    margin-left: 2%;
+}
 
-
+/*** resposta e curiosidades de Jupiter   ***/
 #respJupiter{
     color: rgb(255, 255, 255);
     font-size: 22px;
     font-family: 'Sofia Sans', sans-serif;
-    margin: 2% 0% 7% 3%;
+    margin: 4% 0% 7% 3%;
     line-height: 1.5;
 }
 
-/*** resposta e curiosidades de Saturno   ***/
+/*** Imagem Saturno ***/
+#saturno{
+    float: left;
+    margin-right: 7%;
+}
 
+/*** resposta e curiosidades de Saturno   ***/
 #respSaturno{
     color: rgb(255, 255, 255);
     font-size: 22px;
@@ -116,10 +155,13 @@ body{
     line-height: 1.5;
 }
 
-
+/*** Imagem Urano   ***/
+#urano{
+    float: left;
+   margin-right: 12%;
+}
 
 /*** resposta e curiosidades de Urano  ***/
-
 #respUrano{
     color: rgb(255, 255, 255);
     font-size: 22px;
@@ -129,11 +171,13 @@ body{
   
 }
 
-
-
+/*** Imagem Netuno   ***/
+#netuno {
+    float: left;
+    margin-right: 12%;
+}
 
 /*** resposta e curiosidades de Netuno   ***/
-
 #respNetuno{
     color: rgb(218, 218, 218);
     font-size: 22px;
@@ -143,35 +187,4 @@ body{
     text-justify: auto;
 
 }
-#mercurio{
-    float: left;
-    margin-right: 6%;
-    margin-left: 2%;
-    
-}
-#venus{
-    float: left;
-    margin-right: 6%;
-    margin-left: -3%;
-}
-#marte{
-    float: left;
-    margin-right: 12%;
-}
-#jupiter{
-    float: left;
-    margin-right: 12%;
-    margin-left: 2%;
-}
-#saturno{
-    float: left;
-    margin-right: 6%;
-}
-#urano{
-    float: left;
-   margin-right: 12%;
-}
-#netuno {
-    float: left;
-    margin-right: 12%;
-}
+
